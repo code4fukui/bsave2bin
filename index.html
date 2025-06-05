@@ -54,103 +54,70 @@ setDropFilesListener(main, (e) => {
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 <style>
-  body {
-    margin: 0;
-    font-family: 'Press Start 2P', monospace;
-    background: #0000FF;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  background: #0000FF;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-  header, footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    background: #000000;
-    border-top: 4px solid #FFFFFF;
-    border-bottom: 4px solid #FFFFFF;
-  }
+header, footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #000000;
+  border-top: 4px solid #FFFFFF;
+  border-bottom: 4px solid #FFFFFF;
+}
 
-  header h1 {
-    font-size: 2rem; /* サイズアップ */
-    margin: 0;
-    color: #FFFFFF;
-    text-shadow: 2px 2px #0000AA;
-  }
+header h1 {
+  font-size: 2rem; /* サイズアップ */
+  margin: 0;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #0000AA;
+}
 
-  header p {
-    font-size: 1rem; /* サイズアップ */
-    margin-top: 1rem;
-    color: #00FFFF;
-  }
+header p {
+  font-size: 1rem; /* サイズアップ */
+  margin-top: 1rem;
+  color: #00FFFF;
+}
 
-  main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 1rem;
-    text-align: center;
-  }
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
 
-  main p {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    color: #FFFFFF;
-  }
+main p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+}
 
-  input[type="file"] {
-    margin-bottom: 1.5rem;
-    padding: 1rem 1.5rem;
-    font-size: 1rem;
-    background: #000000;
-    color: #00FFFF;
-    border: 2px solid #00FFFF;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s;
-  }
+input[type="file"] {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  background: #000000;
+  color: #00FFFF;
+  border: 2px solid #00FFFF;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
 
-  input[type="file"]:hover {
-    background: #0022AA;
-    color: #FFFFFF;
-  }
+input[type="file"]:hover {
+  background: #0022AA;
+  color: #FFFFFF;
+}
 
-  main > div {
-    background: #000000;
-    padding: 1.5rem;
-    border: 2px solid #FFFFFF;
-    border-radius: 8px;
-    width: fit-content;
-    text-align: left;
-  }
-
-  main div div {
-    margin: 0.6rem 0;
-    color: #00FF00;
-    font-size: 1rem; /* 情報表示も読みやすく */
-  }
-
-  span {
-    color: #FFFFFF;
-    font-weight: bold;
-  }
-
-  footer p {
-    font-size: 0.9rem;
-    color: #CCCCCC;
-  }
-
-  footer a {
-    color: #00FFFF;
-    text-decoration: none;
-  }
-
-  footer a:hover {
-    text-decoration: underline;
-  }
 table {
   background: #000000;
   border: 2px solid #FFFFFF;
@@ -169,6 +136,25 @@ th, td {
 th {
   background: #111111;
   color: #00FFFF;
+}
+
+span {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #CCCCCC;
+}
+
+footer a {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 </style>
 
