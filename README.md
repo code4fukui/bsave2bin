@@ -1,15 +1,19 @@
 # bsave2bin
 
-MSXのBSAVE形式のファイルからバイナリデータのみのファイルに変換します
+Converts MSX BSAVE format files to binary data files.
 
-- [bsave2bin](https://code4fukui.github.io/bsave2bin/) as a web app
+## Demo
+[bsave2bin](https://code4fukui.github.io/bsave2bin/) as a web app
 
-## usage
+## Features
+- Converts MSX BSAVE format files to binary data files
+- Displays start address, end address, execution address, and data length
+
+## Usage
 
 ```sh
 deno -A https://code4fukui.github.io/bsave2bin/bave2bin.js [bsave file] [bin file]
 ```
 
-## reference
-
-- [BSAVE](https://github.com/code4fukui/BSAVE/)
+## License
+MIT License
