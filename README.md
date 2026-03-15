@@ -1,5 +1,7 @@
 # bsave2bin
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Converts MSX BSAVE format files to binary data files.
 
 ## Demo
