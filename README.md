@@ -18,4 +18,4 @@ deno -A https://code4fukui.github.io/bsave2bin/bave2bin.js [bsave file] [bin fil
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
